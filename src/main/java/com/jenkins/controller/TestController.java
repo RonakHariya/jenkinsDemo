@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class TestController {
 
+    // Get Test
     @GetMapping("/test")
     public String getTest() {
         return "GET request successful";
