@@ -31,5 +31,10 @@ public class TestController {
         return "PUT request successful";
     }
 
+    @GetMapping("/all")
+    public String getAll(){
+        return "GET All request successful";
+    }
+
 }
 
