@@ -34,6 +34,10 @@ public class TestController {
     }
 
     
+    @GetMapping("/all")
+    public String getAll(){
+        return "GET All request successful";
+    }
 
 }
 
