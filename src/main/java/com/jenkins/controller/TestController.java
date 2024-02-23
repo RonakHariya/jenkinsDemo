@@ -21,16 +21,19 @@ public class TestController {
         return "POST request successful";
     }
 
+    // To delete
     @DeleteMapping("/test")
     public String deleteTest() {
         return "DELETE request successful";
     }
 
+    // To update
     @PutMapping("/test")
     public String updateTest() {
         return "PUT request successful";
     }
 
+    
     @GetMapping("/all")
     public String getAll(){
         return "GET All request successful";
