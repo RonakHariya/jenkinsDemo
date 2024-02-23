@@ -16,6 +16,7 @@ public class TestController {
         return "GET request successful";
     }
 
+    // To Create
     @PostMapping("/test")
     public String createTest() {
         return "POST request successful";
